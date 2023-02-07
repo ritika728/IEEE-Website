@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed&family=Cedarville+Cursive&family=Comfortaa:wght@600&family=Comic+Neue:wght@5;400&family=Courgette&family=Grape+Nuts&family=Lemonada:wght@400;600&family=Lobster&family=Montserrat:wght@600&family=Overlock:ital,wght@0,400;1,900&family=Paprika&family=Permanent+Marker&family=Secular+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed&family=Cedarville+Cursive&family=Comfortaa:wght@600&family=Comic+Neue:wght@300;400&family=Courgette&family=Grape+Nuts&family=Lemonada:wght@400;600&family=Lobster&family=Montserrat:wght@600&family=Overlock:ital,wght@0,400;1,900&family=Paprika&family=Permanent+Marker&family=Poppins&family=Secular+One&display=swap');
+
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333333;
+    
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+
+}
+.css-19kzrtu {
+    padding: 2px!important;
+}
+#nav {
+  background: white;
+  color: rgb(13, 26, 38);
+  position: fixed;
+  top: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  z-index: 10;
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin-top: -2px;
+  text-align: right;
+  transition: transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+}
+
+.css-130f8nx{
+  display: inline-block;
+}
+.css-130f8nx a {
+  color: rgb(13, 26, 38);
+    /* display: block; */
+    font-size: 0.7em;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    padding: 0 4px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+path{
+    color: white;
+}
+
+.css-130f8nx a:hover {
+    color: rgb(28, 121, 184);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+#nav .css-130f8nx a:before, #navbar .css-130f8nxs a:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  bottom: -1px;
+  background: rgb(13, 26, 38);
+}
+
+#nav .css-130f8nx a:before {
+  left: 0;
+  transition: 0.5s;
+}
+
+#nav .css-130f8nx a:after {
+  background: rgb(13, 26, 38);
+  right: 0;
+  /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
+}
+#nav .css-130f8nx a:hover:before {
+  background: rgb(13, 26, 38);
+  width: 100%;
+  transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+}
+
+#nav .css-130f8nx a:hover:after {
+  background: transparent;
+  width: 100%;
+}
+
+
+.css-ahj2mt-MuiTypography-root {
+    overflow-x: hidden;
+}
+
+
+
+.css-k008qs{
+    /* background-image: url("./bg.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    padding: 4px !important;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+
+    background: white;
+    color: rgb(13, 26, 38);
+    position: fixed;
+    top: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    z-index: 10;
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin-top: -2px;
+    text-align: right;
+    transition: transform 0.5s ease-out;
+    -webkit-transition: transform 0.5s ease-out;
+    
+}
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper .logo{
+    margin: 20px auto;
+
+}
+.drawerLink {
+    color: rgb(13, 26, 38);
+    font-size: 0.7em;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    padding: 0 4px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+
+}
+
+.drawerLink:hover {
+    /* text-decoration: underline; */
+      color: rgb(28, 121, 184);
+      transition: all 1s ease;
+      -webkit-transition: all 1s ease;
+}
+
+.drawerLink::before, .drawerLink::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  bottom: -1px;
+  background: rgb(13, 26, 38);
+}
+
+.drawerLink::before {
+  left: 0;
+  transition: 0.5s;
+}
+
+.drawerLink::after {
+  background: rgb(13, 26, 38);
+  right: 0;
+}
+.drawerLink:hover:before {
+  background: rgb(13, 26, 38);
+  width: 100%;
+  transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+}
+
+.drawerLink:hover:after {
+  background: transparent;
+  width: 100%;
+}
+
+
+@media (max-width:1300px) {
+    .css-k008qs {
+        height: 40vw;
+    }
+
+}
+
+@media (max-width:920px) {
+    .css-k008qs{
+        height: 90vw;
+    }
+
+
+    .css-130f8nx a {
+        margin: 10px;
+        font-size: 90%;
+    }
+}
+
+@media (max-width:700px) {
+    .css-k008qs{
+        height: 100vw;
+    }
+
+}
+
+@media (max-width:610px) {
+    .css-k008qs{
+        height: 120vw;
+    }
+
+}
+
+@media (max-width:500px) {
+    .css-k008qs{
+        height: 145vw;
+        background-position:bottom;
+    }
+
+}
+
+@media (max-width:410px) {
+    .css-k008qs {
+        height: 190vw;
+    }
+
+}
+
+@media (max-width:320px) {
+    .css-k008qs{
+        height: 220vw;
+    }
+
+}
