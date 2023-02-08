@@ -10,6 +10,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import './navbar.css'
+import './about.css'
+import './countdown.css'
+import './countdown.js'
 
 
 export default function DrawerAppBar(props) {
@@ -27,6 +30,9 @@ export default function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+      <Typography variant="h6" sx={{ my: 2 }}>
+      <img className='logo'  alt="loading.." />
+      </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
@@ -84,10 +90,55 @@ export default function DrawerAppBar(props) {
           }}
         >
           {drawer}
-        </Drawer>
+          </Drawer>
       </Box>
       <Box component="main" sx={{ p: 3 }} id="ABOUT">
         <Toolbar />
+        <Typography component={'div'}>
+          <div id="ABOUT" >
+            <div className='main_head'>
+              <h3>IEEE DELHI STUDENT SECTION NETWORK PRESENTS</h3>
+              <div class="animatedbox in"> <h1>RAJASTHAN SUBSECTION CONGRESS'23</h1>
+              <h4>IEEE Student Branch Mody University of Science and Technology</h4></div>
+            </div>
+            <div id="clockdiv">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+
+            <div className='register'>
+              <button className='click'>REGISTER HERE</button>
+              <button className='rules'>RULES & REGULATIONS</button>
+            </div>
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+        
+        </Typography>
       </Box>
     </Box>
   );
