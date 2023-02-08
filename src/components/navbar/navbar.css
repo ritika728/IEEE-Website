@@ -14,7 +14,8 @@ body{
 }
 
 #ABOUT{
-    background: rgba(0,102,153,0.7);
+    /* background: rgba(0,102,153,0.7); */
+    background-color: rgb(10,25,47);
     /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);   */
     width: 1540px; 
     height: 100vh;

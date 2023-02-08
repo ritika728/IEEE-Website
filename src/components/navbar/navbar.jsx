@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import './navbar.css'
 import './about.css'
 import './countdown.css'
-import './countdown.js'
+// import './countdown.js'
 
 
 export default function DrawerAppBar(props) {
@@ -96,11 +96,16 @@ export default function DrawerAppBar(props) {
         <Toolbar />
         <Typography component={'div'}>
           <div id="ABOUT" >
+            <div className='content1'>
             <div className='main_head'>
-              <h3>IEEE DELHI STUDENT SECTION NETWORK PRESENTS</h3>
+              <h3 className='animatedhead'>IEEE DELHI STUDENT SECTION NETWORK PRESENTS</h3>
               <div class="animatedbox in"> <h1>RAJASTHAN SUBSECTION CONGRESS'23</h1>
               <h4>IEEE Student Branch Mody University of Science and Technology</h4></div>
             </div>
+            <div className="photo">
+            <img className="image"  style={{height:"300px"}}src={require('./animation.png')} alt="alternate" />
+          </div>
+          </div>
             <div id="clockdiv">
   <div>
     <span class="days"></span>

@@ -4,7 +4,7 @@
 	font-weight: 100;
 	text-align: center;
 	font-size: 30px;
-	margin-left: 100px;
+	margin-left: 50px;
 	margin-bottom: 30px;
 	margin-top: -40px;
 	
@@ -33,16 +33,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:200');
 
 .animatedbox {
-  font-family: 'Lato';
+  /* font-family: 'Lato'; */
   color: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-bottom: 20px;
   text-align: center;
   border-radius: 4px;
-  width: 59%;
+  width: 100%;
   text-align: left;
   padding-left: 20px;
+
 }
 
 /* .animatedbox h1 {
