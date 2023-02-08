@@ -1,0 +1,51 @@
+.main_head{
+    padding: 100px;
+}
+
+.main_head h3{
+    color:silver;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.main_head h1{
+    font-size: 35px;
+    color: white;
+    letter-spacing: 2.4px;
+}
+
+.main_head h4{
+    font-size: 25px;
+    color: white;
+}
+
+.register{
+    padding-left: 100px;
+    font-size: 25px;
+    cursor: pointer !important;
+    display: flex;
+    flex-direction: row;
+}
+.click{
+    color: black;
+    padding: 20px;
+    letter-spacing: 2px;
+    background-color: silver;
+    border: none;
+    font-size: 15px;
+    border-radius: 2px;
+    width: 17%;
+    margin-right: 20px;
+}
+
+.rules{
+    color: black;
+    padding: 20px;
+    letter-spacing: 2px;
+    background-color: silver;
+    border: none;
+    font-size: 15px;
+    border-radius: 2px;
+    width: 17%;
+}
