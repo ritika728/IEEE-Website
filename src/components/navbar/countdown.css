@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
 #clockdiv{
 	font-family: sans-serif;
 	display: inline-block;
@@ -6,7 +8,10 @@
 	font-size: 30px;
 	margin-left: 50px;
 	margin-bottom: 30px;
-	margin-top: -40px;
+	margin-top: 40px;
+  /* background-color: #ffffff; */
+  justify-content: left;
+  margin-left: -580px;
 	
 }
 #clockdiv > div{
@@ -14,15 +19,19 @@
 	/* border-radius: 3px; */
 	background-color: transparent;
 	display: inline-block;
-	color:white;
+	/* color:white; */
+  color: rgb(89,227,197);
+  justify-content: left;
+  font-weight: 200;
 }
 
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background:silver;
+	background-color: rgb(204,214,246);
 	display: inline-block;
 	color:black;
+  font-family: "Raleway" ;
 }
 
 .smalltext{
@@ -33,7 +42,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:200');
 
 .animatedbox {
-  /* font-family: 'Lato'; */
+
   color: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -57,7 +66,7 @@
 } */
 
 /* The animation starts here */
-.animatedbox {
+/* .animatedbox {
   position: relative;
 }
 
@@ -79,7 +88,7 @@
 }
 
 /* motion */
-@keyframes gradient-animation {
+/* @keyframes gradient-animation {
   0% {
     background-position: 15% 0%;
   }
@@ -107,6 +116,6 @@
   100% {
     -webkit-clip-path: polygon(0% 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 0% 100%);
   }
-}
+} */ 
 
 
