@@ -12,11 +12,11 @@ import Typography from '@mui/material/Typography';
 import './navbar.css'
 import './about.css'
 import './countdown.css'
-// import './countdown.js'
+import './countdown.js'
 
 
 export default function DrawerAppBar(props) {
-
+ 
   const drawerWidth = 240;
   const navItems = ['ABOUT', 'EVENTS', 'TIMELINE','SPONSORS','GALLERY','CONTACT','BECOME A SPONSOR'];
   const { window } = props;
@@ -97,15 +97,13 @@ export default function DrawerAppBar(props) {
         <Typography component={'div'}>
           <div id="ABOUT" >
             <div className='content1'>
+            <div className='clockflex'>
             <div className='main_head'>
+              {/* <h3 className='animatedhead'>IEEE DELHI STUDENT SECTION NETWORK PRESENTS</h3> */}
               <h3 className='animatedhead'>IEEE DELHI STUDENT SECTION NETWORK PRESENTS</h3>
-              <div class="animatedbox in"> <h1>RAJASTHAN SUBSECTION CONGRESS'23</h1>
-              <h4>IEEE Student Branch Mody University of Science and Technology</h4></div>
+              <div> <h1>RAJASTHAN SUBSECTION CONGRESS'23</h1>
+              <h4>IEEE STUDENT BRANCH MODY UNIVERSITY OF SCIENCE AND TEHNOLOGY</h4></div>
             </div>
-            <div className="photo">
-            <img className="image"  style={{height:"300px"}}src={require('./animation.png')} alt="alternate" />
-          </div>
-          </div>
             <div id="clockdiv">
   <div>
     <span class="days"></span>
@@ -124,12 +122,16 @@ export default function DrawerAppBar(props) {
     <div class="smalltext">Seconds</div>
   </div>
 </div>
-
-            <div className='register'>
-              <button className='click'>REGISTER HERE</button>
-              <button className='rules'>RULES & REGULATIONS</button>
-            </div>
-            <ul class="circles">
+</div>
+            <div className="photo">
+            <img className="image"  style={{height:"280px"}}src={require('./animation.png')} alt="alternate" />
+          </div>
+          </div>
+            <div className='register'> 
+               <button className='custom-btn btn-3'><span>REGISTER HERE</span></button> 
+               <button className='custom-btn btn-3'><span>RULES & REGULATIONS</span></button> 
+             </div>
+            <ul className="circles">
                     <li></li>
                     <li></li>
                     <li></li>

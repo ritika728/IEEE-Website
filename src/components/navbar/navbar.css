@@ -9,20 +9,15 @@
     padding: 0px;
 }
 
-body{
-    font-family: 'Exo', sans-serif;
-}
-
 #ABOUT{
-    /* background: rgba(0,102,153,0.7); */
     background-color: rgb(10,25,47);
-    /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);   */
     width: 1540px; 
-    height: 100vh;
+    height: 1000vh;
+    margin-top: -10px;
 }
 
 .circles{
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
@@ -155,32 +150,23 @@ body{
     padding: 2px!important;
 }
 #nav {
-  background: white;
-  color: rgb(13, 26, 38);
-  /* box-shadow: none; */
-  position: fixed;
+  background: transparent;
+  /* color: rgb(13, 26, 38); */
+  box-shadow: none; 
+  /* position: fixed; */
   height: 75px;
   line-height: 20px;
   width: 100%;
-  z-index: 10; 
-  padding-right: 120px;
-  /* display: inline-block;
-  float: right;
-  list-style: none;
-  margin-top: -2px;
-  text-align: right;
-  transition: transform 0.5s ease-out;
-  -webkit-transition: transform 0.5s ease-out; */
+  /* z-index: 10;  */
+  margin-top: 15px;
+  /* padding-right: 120px; */
 }
 canvas {
     background: #232323;
   }
-/* .css-130f8nx{
-  display: inline-block;
-} */
 .css-130f8nx a {
-   color: rgb(13, 26, 38);
-    font-size: 15px;
+    color: rgb(89,227,197);
+    font-size: 18px;
     /* height: 50px; */
     letter-spacing: 1px;
     margin: 0 20px;
@@ -190,14 +176,15 @@ canvas {
     text-transform: uppercase;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
-    font-family: 'Oswald', sans-serif
+    /* font-family: 'Oswald', sans-serif */
+
 }
 path{
     color: white;
 }
 
 .css-130f8nx a:hover {
-    color: rgb(28, 121, 184);
+    color: rgb(204,214,246);
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
 }
@@ -208,7 +195,7 @@ path{
   width: 0%;
   height: 1px;
   bottom: -1px;
-  background: rgb(13, 26, 38);
+  background:rgb(204,214,246);
 }
 
 #nav .css-130f8nx a:before {
@@ -217,12 +204,12 @@ path{
 }
 
 #nav .css-130f8nx a:after {
-  background: rgb(13, 26, 38);
+  color: rgb(204,214,246);
   right: 0;
   /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
 }
 #nav .css-130f8nx a:hover:before {
-  background: rgb(13, 26, 38);
+  background: rgb(204,214,246);
   width: 100%;
   transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
 }
@@ -260,7 +247,7 @@ path{
     height: 60px;
     line-height: 60px;
     width: 100%;
-    z-index: 10;
+    /* z-index: 10; */
     display: inline-block;
     float: right;
     list-style: none;
