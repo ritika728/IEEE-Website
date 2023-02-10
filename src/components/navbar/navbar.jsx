@@ -10,9 +10,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import './navbar.css'
-import './about.css'
+import './home.css'
 import './countdown.css'
-import './countdown.js'
+// import './countdown.js'
 
 
 export default function DrawerAppBar(props) {
@@ -92,10 +92,10 @@ export default function DrawerAppBar(props) {
           {drawer}
           </Drawer>
       </Box>
-      <Box component="main" sx={{ p: 3 }} id="ABOUT">
+      <Box component="main" sx={{ p: 3 }} id="HOME">
         <Toolbar />
         <Typography component={'div'}>
-          <div id="ABOUT" >
+          <div id="HOME" >
             <div className='content1'>
             <div className='clockflex'>
             <div className='main_head'>

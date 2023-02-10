@@ -9,20 +9,21 @@
     padding: 0px;
 }
 
-#ABOUT{
-    background-color: rgb(10,25,47);
-    width: 1540px; 
-    height: 1000vh;
-    margin-top: -10px;
+#HOME{
+    background-color: rgb(10,25,47); 
+     width: 1540px; 
+    height: 150vh; 
+     /* margin-top: -10px;  */
 }
 
 .circles{
-    /* position: absolute; */
+    /* position:fixed; */
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    /* height: 100%; */
+    overflow: hidden !important;
+    /* margin-bottom: -200px; */
 }
 
 .circles li{
@@ -33,7 +34,7 @@
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
-    bottom: -150px;
+    bottom: -20px;
     
 }
 
@@ -49,7 +50,7 @@
     left: 10%;
     width: 20px;
     height: 20px;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-duration: 12s;
 }
 
@@ -57,7 +58,7 @@
     left: 70%;
     width: 20px;
     height: 20px;
-    animation-delay: 4s;
+    animation-delay: 0s;
 }
 
 .circles li:nth-child(4){
@@ -79,21 +80,21 @@
     left: 75%;
     width: 110px;
     height: 110px;
-    animation-delay: 3s;
+    animation-delay: 0s;
 }
 
 .circles li:nth-child(7){
     left: 35%;
     width: 150px;
     height: 150px;
-    animation-delay: 7s;
+    animation-delay: 0s;
 }
 
 .circles li:nth-child(8){
     left: 50%;
     width: 25px;
     height: 25px;
-    animation-delay: 15s;
+    animation-delay: 0s;
     animation-duration: 45s;
 }
 
@@ -101,7 +102,7 @@
     left: 20%;
     width: 15px;
     height: 15px;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-duration: 35s;
 }
 
@@ -157,13 +158,13 @@ body{
   height: 75px;
   line-height: 20px;
   width: 100%;
-  /* z-index: 10;  */
-  margin-top: 15px;
+  z-index: 10; 
+  /* margin-top: 15px; */
   /* padding-right: 120px; */
 }
-canvas {
+/* canvas {
     background: #232323;
-  }
+  } */
 .css-130f8nx a {
     color: rgb(89,227,197);
     font-size: 18px;
