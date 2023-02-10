@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import './navbar.css'
 import './about.css'
 import './countdown.css'
-import './countdown.js'
+// import './countdown.js'
 
 
 export default function DrawerAppBar(props) {
@@ -96,7 +96,7 @@ export default function DrawerAppBar(props) {
         <Toolbar />
         <Typography component={'div'}>
           <div id="ABOUT" >
-            <div className='content1'>
+            <div className='content1' id='mobileabout'>
             <div className='clockflex'>
             <div className='main_head'>
               {/* <h3 className='animatedhead'>IEEE DELHI STUDENT SECTION NETWORK PRESENTS</h3> */}
@@ -105,7 +105,7 @@ export default function DrawerAppBar(props) {
               <h4>IEEE STUDENT BRANCH MODY UNIVERSITY OF SCIENCE AND TEHNOLOGY</h4></div>
             </div>
             <div id="clockdiv">
-  <div>
+            <div>
     <span class="days"></span>
     <div class="smalltext">Days</div>
   </div>
@@ -127,9 +127,33 @@ export default function DrawerAppBar(props) {
             <img className="image"  style={{height:"280px"}}src={require('./animation.png')} alt="alternate" />
           </div>
           </div>
-            <div className='register'> 
-               <button className='custom-btn btn-3'><span>REGISTER HERE</span></button> 
-               <button className='custom-btn btn-3'><span>RULES & REGULATIONS</span></button> 
+            <div className='main_head_mobile'>
+              {/* <h3 className='animatedhead'>IEEE DELHI STUDENT SECTION NETWORK PRESENTS</h3> */}
+              <h3 className='animatedhead' id='ssn'>IEEE DELHI STUDENT SECTION NETWORK PRESENTS</h3>
+              <div> <h1 id='name_congress'>RAJASTHAN SUBSECTION CONGRESS'23</h1>
+              <h4 id='desc'>IEEE STUDENT BRANCH MODY UNIVERSITY OF SCIENCE AND TEHNOLOGY</h4></div>
+            </div>
+            <div id="clockdivmobile">
+            <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+            </div>
+            <div className='register' id='registermobile'> 
+               <button className='custom-btn btn-3' id='custombtnmobile'><span>REGISTER HERE</span></button> 
+               <button className='custom-btn btn-3' id='custombtnmobile1'><span>RULES & REGULATIONS</span></button> 
              </div>
             <ul className="circles">
                     <li></li>
