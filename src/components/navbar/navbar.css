@@ -9,6 +9,14 @@
     padding: 0px;
 }
 
+.main_head_mobile{
+    display: none;
+}
+
+#clockdivmobile{
+    display: none;
+}
+
 #ABOUT{
     background-color: rgb(10,25,47);
     width: 1540px; 
@@ -366,4 +374,91 @@ path{
         height: 220vw;
     }
 
+}
+@media screen  and (min-width:300px) and (max-width:500px) {
+    #ABOUT{
+        width: 100%; 
+        height: 100vh;
+        margin-top: -10px;
+    }
+    #mobileabout{
+        display: none;
+    }
+    .main_head_mobile{
+        display: block;
+        text-align: center;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top:5%;
+    }
+    #name_congress{
+        color: rgb(89,227,197);
+        font-size: 1.8em;
+    }
+    #desc, #ssn{
+        color: rgb(204,214,246);
+    }
+    #clockdivmobile{
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+    #clockdivmobile div > span {
+        padding: 15px;
+        border-radius: 3px;
+        background-color: rgb(204,214,246);
+        display: inline-block;
+        color: black;
+        font-family: "Raleway";
+    }
+    #clockdivmobile > div {
+        padding: 10px;
+        /* border-radius: 3px; */
+        background-color: transparent;
+        display: inline-block;
+        /* color: white; */
+        color: rgb(89,227,197);
+        text-align: center;
+        font-weight: 200;
+    }
+    .btn-3 span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .btn-3 {
+        margin-top:10px;
+        background-color: rgb(89,227,197);
+        line-height: 5px;
+        padding: 0;
+        border: none;
+    }
+    #custombtnmobile,#custombtnmobile1 {
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        color: rgb(58,54,55);
+        padding: 5px;
+        letter-spacing: 1px;
+        border: none;
+        font-size: 15px;
+        border-radius: 2px;
+        width: 80%;
+        height: 10%;
+        margin-right: 10%;
+        margin-left: 10%;
+        cursor: pointer;
+        font-weight: 500;
+    }
+    #registermobile{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        display: block;
+        margin-top: 40px;
+    }
 }
