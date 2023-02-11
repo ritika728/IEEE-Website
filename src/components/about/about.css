@@ -5,8 +5,8 @@
 }
 #ABOUT{
   background-color: rgb(10,25,47); 
-   width: 1540px; 
-  height: 150vh; 
+   /* width: 1540px; 
+  height: 150vh;  */
    margin-top: -10px; 
 }
 .about-border {
@@ -208,5 +208,20 @@
   height: 150px;
   animation-delay: 0s;
   animation-duration: 11s;
+}
+@keyframes animate {
+
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 0.4;
+      border-radius: 30%;
+  }
+
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 30%;
+  }
+
 }
 
