@@ -35,7 +35,8 @@
   text-align: justify;
   padding-right: 80px;
   padding-left: 20px;
-  color: rgb(204,214,246);
+  /* color: rgb(204,214,246); */
+  color: rgb(118,130,158);
   font-size: 25px;
   letter-spacing: 1.5px;
 
@@ -53,7 +54,8 @@
 .rsctext{
   width: 65%;
   text-align: justify;
-  color: rgb(204,214,246);
+  /* color: rgb(204,214,246); */
+  color: rgb(118,130,158);
   font-size: 25px;
   letter-spacing: 1.5px;
   padding-left: 60px;
@@ -74,7 +76,8 @@
   text-align: justify;
   padding-right: 80px;
   padding-left: 20px;
-  color: rgb(204,214,246);
+  /* color: rgb(204,214,246); */
+  color: rgb(118,130,158);
   font-size: 25px;
   letter-spacing: 1.5px;
 }
