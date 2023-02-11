@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import './about.js'
+
 const about = () => {
   return (
     <div id="ABOUT">
@@ -26,6 +27,18 @@ const about = () => {
     <img className="must_im"  style={{height:"130px"}}src={require('./ieee2.png')} alt="alternate" />
   </div></div>
 </div>
+<ul className="circles_about">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
     </div>
   )
 }
