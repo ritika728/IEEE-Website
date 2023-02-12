@@ -2,6 +2,7 @@ import './landing.css'
 import DrawerAppBar from "../navbar/navbar.jsx";
 import About from '../about/about.jsx'
 import Events from '../event/events.jsx'
+import Contact from '../contact/contact.jsx'
 import { useState } from 'react';
 
 
@@ -34,6 +35,7 @@ function Landing() {
             }
         <About/>
         <Events/>
+        <Contact/>
         </>
     )
 }

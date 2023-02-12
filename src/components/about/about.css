@@ -8,6 +8,7 @@
    /* width: 1540px; 
   height: 150vh;  */
    margin-top: -10px; 
+   overflow: hidden;
 }
 .about-border {
   display: block;
@@ -89,6 +90,7 @@
 .reveal {
   position: relative;
   opacity: 0;
+  overflow: hidden;
 }
 
 .reveal.active {
@@ -103,7 +105,7 @@
 }
 @keyframes fadeLeft {
   0% {
-    transform: translateX(-100px);
+    transform: translateX(-50px);
     opacity: 0;
   }
   100% {
@@ -114,7 +116,7 @@
 
 @keyframes faderight {
   0% {
-    transform: translateX(100px);
+    transform: translateX(50px);
     opacity: 0;
   }
   100% {
