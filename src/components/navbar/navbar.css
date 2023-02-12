@@ -227,7 +227,7 @@ path{
   width: 0%;
   height: 1px;
   bottom: -1px;
-  background:rgb(58,54,55);
+  background:rgb(204,214,246);
 }
 
 #nav .css-130f8nx a:before {
@@ -236,12 +236,12 @@ path{
 }
 
 #nav .css-130f8nx a:after {
-  color: rgb(58,54,55);
+  color: rgb(204,214,246);
   right: 0;
   /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
 }
 #nav .css-130f8nx a:hover:before {
-  background: rgb(58,54,55);;
+  background: rgb(204,214,246);
   width: 100%;
   transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
 }

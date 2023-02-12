@@ -105,7 +105,7 @@ const events = () => {
 </article>
     </div>
     </div>
-    <ul className="circles">
+    {/* <ul className="circles">
                     <li></li>
                     <li></li>
                     <li></li>
@@ -116,7 +116,7 @@ const events = () => {
                     <li></li>
                     <li></li>
                     <li></li>
-            </ul>
+            </ul> */}
       </div> 
   )
 }

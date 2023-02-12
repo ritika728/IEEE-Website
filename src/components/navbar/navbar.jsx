@@ -18,7 +18,7 @@ import './countdown.css'
 export default function DrawerAppBar(props) {
  
   const drawerWidth = 240;
-  const navItems = ['ABOUT', 'EVENTS', 'TIMELINE','SPONSORS','GALLERY','CONTACT','BECOME A SPONSOR'];
+  const navItems = ['HOME','ABOUT', 'EVENTS','SPONSORS','TEAM','CONTACT'];
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -154,7 +154,7 @@ export default function DrawerAppBar(props) {
             </div>
             <div className='register' id='registermobile'> 
                <button className='custom-btn btn-3' id='custombtnmobile'><span>REGISTER HERE</span></button> 
-               <button className='custom-btn btn-3' id='custombtnmobile1'><span>RULES & REGULATIONS</span></button> 
+               <button className='custom-btn btn-3' id='custombtnmobile1'><span>CODE OF CONDUCT</span></button> 
              </div>
             <ul className="circles">
                     <li></li>
