@@ -404,6 +404,7 @@ path{
         width: 100%; 
         height: 100vh;
         margin-top: -10px;
+        margin-bottom: 900px;
     }
     #mobileabout{
         display: none;

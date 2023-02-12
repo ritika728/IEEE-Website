@@ -226,4 +226,38 @@
   }
 
 }
+.infomobile{
+  display: none;
+}
+@media screen  and (min-width:300px) and (max-width:500px) {
+  #ABOUT{
+    overflow: visible;
+  }
+  .info{
+    display: none;
+  }
+  .infomobile{
+    display: block;
+  }
+  #one,#two,#three{
+    display: block;
+    /* height: 200px; */
+  }
+  .aboutimg{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width:50%;
+    margin-top:-10px;
+  }
+  .abttext{
+    width:90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: rgb(118,130,158);;
+  }
+}
 
