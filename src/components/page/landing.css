@@ -1,0 +1,70 @@
+.ch #nav {
+    background-color:rgb(89,227,197) !important;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+/* .ch .css-130f8nx a {
+    /* color: rgb(10,25,47);; */
+    /* color: rgb(58,54,55) !important; */
+/* } */
+.ch path {
+    /* color:rgb(10,25,47); */
+    /* color: rgb(58,54,55) !important; */
+} 
+body{
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.ch .css-130f8nx a {
+    color: rgb(58,54,55);
+    font-size: 18px;
+    /* height: 50px; */
+    letter-spacing: 1px;
+    margin: 0 20px;
+    padding: 0 4px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    /* font-family: 'Oswald', sans-serif */
+
+}
+.ch .css-130f8nx a:hover {
+    color: rgb(14,21,139);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.ch .css-130f8nx a:before, .ch .css-130f8nx a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    bottom: -1px;
+    background:rgb(14,21,139);
+  }
+  
+  .ch .css-130f8nx a:before {
+    left: 0;
+    transition: 0.5s;
+  }
+  
+  .ch .css-130f8nx a:after {
+    color: rgb(14,21,139);;
+    right: 0
+    /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
+  }
+  .ch .css-130f8nx a:hover:before {
+    background: rgb(14,21,139);
+    width: 100%;
+    transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+  }
+  
+  .ch .css-130f8nx a:hover:after {
+    background: transparent;
+    width: 100%;
+  }
+  
