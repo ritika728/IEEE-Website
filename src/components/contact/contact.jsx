@@ -65,6 +65,34 @@ const contact = () => {
                 <li><a style={{textDecoration:"none"}} href="#">Shobhna Sharma</a></li>
             </ul>
             </div>
+            <div className='contactandlinks'>
+            <div class="footer-widget-heading">
+            <h3 id='usefullinks'>Useful Links</h3>
+         
+            <ul>
+                <li><a style={{textDecoration:"none"}} href="#">HOME</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">ABOUT</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">EVENTS</a></li>
+                <li><a style={{textDecoration:"none"}} href='#'>TEAM</a></li>
+                <li><a style={{textDecoration:"none"}} href='#'>SPONSORS</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">CONTACT</a></li>
+            </ul>
+            </div>
+            <div class="footer-widget-heading2">
+            <h3 id='contactlinks'>Contact</h3>
+         
+            <ul>
+                <li><a style={{textDecoration:"none"}} href="#">Heena Thadani</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">Jahnavi Sharma</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">Anshul Yadav</a></li>
+                <li><a style={{textDecoration:"none"}} href='#'>Kailash Maurya</a></li>
+                <li><a style={{textDecoration:"none"}} href='#'>Vaidehi Purohit</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">Nivedita Vyas</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">Ritika Malik</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">Shobhna Sharma</a></li>
+            </ul>
+            </div>
+            </div>
             <div className="footer-widget">
                             <div class="footer-widget-heading3">
                                 <h3>Become a member</h3>

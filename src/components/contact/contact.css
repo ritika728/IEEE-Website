@@ -89,4 +89,35 @@ ul {
   text-align: center;
   padding-bottom: 10px;
 }
+.contactandlinks{
+  display: none;
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+  .footer{
+    display: block;
+    padding: 40px;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .footer-widget-heading2,.footer-widget-heading{
+    display: none;
+  }
+  .contactandlinks .footer-widget-heading2,.contactandlinks .footer-widget-heading{
+    display: block;
+    text-align: left;
+  }
+  .contactandlinks .footer-widget-heading2{
+    width:55%;
+  }
+  .contactandlinks .footer-widget-heading{
+    width: 40%;
+    margin-right: 10%;
+  }
+  #usefullinks,#contactlinks{
+    text-align: center;
+  }
+  .contactandlinks{
+    display: flex;
+  }
+}
 
