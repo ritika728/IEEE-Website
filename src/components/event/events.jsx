@@ -58,7 +58,7 @@ const events = () => {
     </div>
     <div className='events'>
         
-      <article class="card">
+      <article class="card" id='card2'>
   <div class="thumb"></div>
   <div class="infos">
     <h2 class="title">new york city<span class="flag"></span></h2>
