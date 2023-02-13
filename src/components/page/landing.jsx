@@ -36,8 +36,8 @@ function Landing() {
             }
         <About/>
         <Events/>
-        <Contact/>
         <Team/>
+        <Contact/>      
         </>
     )
 }

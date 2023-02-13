@@ -1,31 +1,25 @@
-p,a,h1,h2,h3,h4 {
-	margin: 0;
-	padding: 0;
+#TEAM{
+    margin-top: 120px;
+}
+.teams-border {
+    display: block;
+    width: 300px;
+    height: 3px;
+    background: rgb(204,214,246);
+    margin: 0px auto
+}
+.team_head{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(89,227,197);
 }
 .row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 .section-team {
-	/* font-family: "Poppins", sans-serif; */
-	padding: 80px 0;
-}
-
-.section-team .header-section {
-	margin-bottom: 50px;
-}
-
-.section-team .header-section .small-title {
-    margin-bottom: 25px;
-	font-size: 16px;
-    font-weight: 500;
-    color: #3e64ff;
-}
-
-.section-team .header-section .title {
-    font-weight: 700;
-    font-size: 45px;
+	/* padding: 80px 0; */
 }
 
 .section-team .single-person {
@@ -36,12 +30,6 @@ p,a,h1,h2,h3,h4 {
     width: 10%;
 }
 
-.section-team .single-person:hover {
-	/* background: linear-gradient(to right, #016cec, #00b5f7); */
-}
-.single-person{
-    padding: 70px !important;
-}
 .section-team .single-person .person-image {
     position: relative;
     margin-bottom: 50px;
@@ -56,35 +44,15 @@ p,a,h1,h2,h3,h4 {
 }
 
 .section-team .single-person .person-image img {
-	width: 100%;
+	width: 80%;
     border-radius: 50%;
-}
-
-.section-team .single-person .person-image .icon {
-	position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%,50%);
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 60px;
-    text-align: center;
-    background: linear-gradient(to right, #016cec, #00b5f7);
-    color: #fff;
-    border-radius: 50%;
-    font-size: 24px;
-}
-
-.section-team .single-person:hover .person-image .icon {
-	background: none;
-	background-color: #fff;
-	color: #016cec;
+    padding-left: 14px;
+    padding-top: 4px;
 }
 
 .section-team .single-person .person-info .full-name {
-	margin-bottom: 10px;
-	font-size: 20px;
+	margin-bottom: 8px;
+	font-size: 18px;
     font-weight: 700;
     color: rgb(89,227,197);
 }
@@ -93,8 +61,8 @@ p,a,h1,h2,h3,h4 {
 }
 .section-team .single-person .person-info .speciality {
     text-transform: uppercase;
-    font-size: 10px;
-    color: #016cec;
+    font-size: 12px;
+    color: rgb(204,214,246);
 }
 
 .section-team .single-person:hover .full-name,

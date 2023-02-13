@@ -13,9 +13,9 @@ const events = () => {
       <article class="card">
   <div class="thumb"></div>
   <div class="infos">
-    <h2 class="title">new york city<span class="flag"></span></h2>
-    <h3 class="date">november 2 - 4</h3>
-    <h3 class="seats">seats remaining: 2</h3>
+    <h2 class="title">OPENING CEREMONY<span class="flag"></span></h2>
+    <h3 class="date">10:00 AM  - 11:30 AM</h3>
+    {/* <h3 class="seats"></h3> */}
     <p class="txt">
       Join us for our Live Infinity Session in
       beautiful New York City. This is a 3 day
