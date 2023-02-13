@@ -25,7 +25,7 @@ ul {
 }
 .footer-text {
   font-size: 18px !important;
-  color:rgb(14,21,139)
+  color:rgb(14,21,139);
 }
 .footer-social-icon span {
   color: rgb(58,54,55);
@@ -39,7 +39,10 @@ ul {
 .icons{
   padding-right: 1em;
 }
-
+.footer-textt p{
+  color:rgb(14,21,139);
+  font-size: 14px;
+}
 .footer-widget-heading h3{
   color: rgb(58,54,55);
   padding-bottom: 20px;
@@ -47,11 +50,10 @@ ul {
   font-size: 20px;
 }
 
-.footer-widget-heading li{
+.queries{
+  margin-top: 25px;
   font-size: 15px;
-  padding-bottom: 9px;
-  color:rgb(14,21,139) !important;
-  font-weight:500;
+  margin-bottom: 12px !important;
 }
 
 .footer-widget-heading2 h3{
@@ -92,6 +94,21 @@ ul {
 .contactandlinks{
   display: none;
 }
+
+.links_nav{
+  color:rgb(14,21,139) !important;
+}
+
+.footer-widget-heading li{
+  padding-bottom: 14px;
+  font-size: 15px;
+ 
+  font-weight:500;
+}
+.email{
+  margin-top: -45px;
+  padding: 5px;
+}
 @media screen and (min-width:300px) and (max-width:500px) {
   .footer{
     display: block;
@@ -121,3 +138,29 @@ ul {
   }
 }
 
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 5px;
+  background: white;
+  border: 1px solid #2E2E2E;
+  color: black;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: rgb(14,21,139) ;
+    /* background: transparent; */
+    padding: 0 20px;
+    border: 1px solid rgb(14,21,139) ;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 5px;
+  transform: rotate(-6deg);
+  width: 3px;
+}
