@@ -63,6 +63,7 @@ const contact = () => {
             </ul>
             
             </div>
+            <div id='purpose'>
             <div className='contactandlinks'>
             <div class="footer-widget-heading">
             <h3 id='usefullinks'>Useful Links</h3>
@@ -82,12 +83,12 @@ const contact = () => {
             <ul>
                 <li><a style={{textDecoration:"none"}} href="#">Heena Thadani</a></li>
                 <li><a style={{textDecoration:"none"}} href="#">Jahnavi Sharma</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">Anshul Yadav</a></li>
-                <li><a style={{textDecoration:"none"}} href='#'>Kailash Maurya</a></li>
-                <li><a style={{textDecoration:"none"}} href='#'>Vaidehi Purohit</a></li>
                 <li><a style={{textDecoration:"none"}} href="#">Nivedita Vyas</a></li>
                 <li><a style={{textDecoration:"none"}} href="#">Ritika Malik</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">Shobhna Sharma</a></li>
+                <li><a style={{textDecoration:"none"}} href='#'>Vaidehi Purohit</a></li>
+                <li><a style={{textDecoration:"none"}} href='#'>Kailash Maurya</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">Anshul Yadav</a></li>
+
             </ul>
             </div>
             </div>
@@ -119,7 +120,8 @@ const contact = () => {
                                     <button><i><TelegramIcon/></i></button>
                                 </form>
                             </div>
-                        </div>         
+                        </div> 
+                        </div>        
         </div>
         <div className='copyright-border'></div>
         <div className='copyright'>

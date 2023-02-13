@@ -14,7 +14,6 @@ const team = () => {
     <div id='TEAM'>
 		<h1 className="team_head">MEET OUR TEAM</h1>
 		<div className='teams-border'></div>
-		<div className='container2 reveal fadein'>
       <section class="section-team">
 		<div class="container_team">
 			<div class="row">
@@ -129,7 +128,6 @@ const team = () => {
 			</div>
 		</div>
 	</section>
-	</div>
 	<ul className="circle_events">
                     <li></li>
                     <li></li>
@@ -142,7 +140,6 @@ const team = () => {
                     <li></li>
                     <li></li>
             </ul>
-
     </div>
   )
 }

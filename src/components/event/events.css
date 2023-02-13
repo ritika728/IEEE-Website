@@ -60,21 +60,6 @@
   font-weight:600;
 
   }
-  /* article.card .infos .date, article.card .infos .seats {
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-size: 10px;
-    color: rgba(21, 37, 54, 0.7);
-    font-family: "Grotesque", sans-serif;
-  } */
-  /* article.card .infos .seats {
-    display: inline-block;
-    margin-bottom: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    opacity: 0;
-    transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
-  } */
   article.card .infos .txt {
     /* font-family: "Merriweather", sans-serif; */
     line-height: 2;
@@ -281,14 +266,57 @@
 @media screen and (min-width:300px) and (max-width:500px){
   .events{
     display: block;
-    width: 80%;
-    margin-right: 10%;
-    margin-left: -10%;
+    /* width: 80%; */
   }
   .card{
+    margin: 0 auto;
     margin-bottom: 20px;
+  
   }
   #card2{
-    margin-top:-50px;
+    /* margin-top:-50px; */
+  }
+  #top_event{
+    margin-top:10px;
+  }
+  #EVENTS{
+    margin-top: -750px;
+  }
+}
+@media screen and (min-width:500px) and (max-width:700px){
+  .events{
+    display: block;
+    /* width: 80%; */
+  }
+  .card{
+    margin: 0 auto;
+    margin-bottom: 20px;
+  
+  }
+  #card2{
+    /* margin-top:-50px; */
+  }
+  #top_event{
+    margin-top:10px;
+  }
+}
+@media screen and (min-width:700px) and (max-width:900px){
+  .events{
+    display: flex;
+
+  }
+  .card{
+    width: 100% !important;
+    padding: 10px;
+  }
+  
+  .thumb{
+    width: 100% !important;
+  }
+  #card2{
+    /* margin-top:-50px; */
+  }
+  #top_event{
+    margin-top:10px;
   }
 }

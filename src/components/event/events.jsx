@@ -7,7 +7,6 @@ const events = () => {
     <div id="EVENTS">
       <h1 className='events_heading'>EVENTS</h1>
       <div className='about-border'></div>
-      
        <div className='event_main'>
         <div className='events'>
         <div className='container2 reveal fadeLeft'>
@@ -64,7 +63,7 @@ const events = () => {
 </article>
 </div>
     </div>
-    <div className='events'>
+    <div className='events' id='top_event'>
     <div className='container2 reveal fadeLeft'>
       <article class="card" id='card2'>
   <div class="thumb"></div>

@@ -288,7 +288,7 @@
     margin-top: 20px;
   }
   .aboutimg{
-    width:60%;
+    /* width:60%; */
     margin-top:-10px;
   }
   .abttext{
@@ -297,7 +297,7 @@
     margin-right: auto;
     margin-left: auto; */
     text-align: center;
-    color: rgb(118,130,158);;
+    color: rgb(118,130,158);
   }
   .text_res{
     font-size: 95%;
