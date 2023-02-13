@@ -1,12 +1,13 @@
 #TEAM{
-    margin-top: 120px;
+    margin-top: 150px;
 }
 .teams-border {
     display: block;
     width: 300px;
     height: 3px;
     background: rgb(204,214,246);
-    margin: 0px auto
+    margin: 0px auto;
+    margin-bottom: 40px;
 }
 .team_head{
     font-size: 60px;
@@ -17,6 +18,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+ 
+}
+.iconss{
+    color: rgb(204,214,246) !important;
+}
+.contactt{
+    display: flex;
+    flex-direction: row;
 }
 .section-team {
 	/* padding: 80px 0; */
@@ -27,27 +36,24 @@
 	padding: 30px;
 	/* background-color: #f6f9ff; */
 	border-radius: 5px;
-    width: 10%;
+    width: 15%;
 }
 
 .section-team .single-person .person-image {
     position: relative;
     margin-bottom: 50px;
     border-radius: 50%;
-    border: 2px dashed transparent;
-    transition: padding .3s;
 }
 
-.section-team .single-person:hover .person-image {
-	padding: 12px;
+.section-team .single-person:hover .person-image img {
+	padding: 16px;
     border: 2px dashed #fff;
 }
-
 .section-team .single-person .person-image img {
-	width: 80%;
+	width: 70%;
     border-radius: 50%;
-    padding-left: 14px;
-    padding-top: 4px;
+    border: 2px dashed transparent;
+    transition: padding .3s;
 }
 
 .section-team .single-person .person-info .full-name {
@@ -69,3 +75,34 @@
 .section-team .single-person:hover .speciality {
 	color: #fff;
 }
+
+.reveal {
+    position: relative;
+    opacity: 0;
+    overflow: hidden;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  
+  .active.fadeLeft{
+    animation: fadeLeft 2s ease-in-out; 
+  }
+  .active.faderight {
+    animation: faderight 2s ease-in-out;
+  }
+  .active.fadein{
+    animation: fadein 3s ease-in-out;
+  }
+
+  @keyframes fadein {
+    0% {
+      /* transform: translateX(50px); */
+      opacity: 0;
+    }
+    100% {
+      /* transform: translateX(0); */
+      opacity: 1;
+    }
+  }
