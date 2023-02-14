@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import './about.js'
+// import './about.js'
 
 const about = () => {
   return (
@@ -40,7 +40,7 @@ const about = () => {
   </div></div>
   <div className='container reveal fadeLeft'>
   <div className='must' id='three'>
-  <img className="aboutimg" src={require('./ieee2.png')} alt="alternate" />
+  <img className="aboutimg" src={require('../assests/mustlogo2.png')}  alt="alternate" />
     <div className='abttext'><strong><p className='text_res' style={{textTransform:"uppercase", color:"rgb(204,214,246)" }}>IEEE Student Branch Mody University of Science and Technology</p></strong> <p className='size'>Provides a platform & opportunities to connect, meet and learn from fellow IEEE students and engage with professional IEEE members locally.</p></div>
   </div></div>
 </div>
