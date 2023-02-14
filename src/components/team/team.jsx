@@ -82,7 +82,7 @@ const team = () => {
 			</div>
 			<div class="row" style={{marginTop:"-70px"}}>
 
-					<div class="single-person">
+					<div class="single-person" id='sizee'>
 						<div class="person-image">
 							<img src="https://i.ibb.co/nbpNr4r/person2.jpg" alt=""></img>
 							{/* <span class="icon">

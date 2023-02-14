@@ -6,7 +6,7 @@ const events = () => {
   return (
     <div id="EVENTS">
       <h1 className='events_heading'>EVENTS</h1>
-      <div className='about-border'></div>
+      <div className='event-border'></div>
        <div className='event_main'>
         <div className='events'>
         <div className='container2 reveal fadeLeft'>

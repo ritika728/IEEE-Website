@@ -139,7 +139,7 @@ ul {
 @media screen and (min-width:0px) and (max-width:600px) {
   .footer{
     display: block;
-    padding: 30px;
+    padding: 20px;
     padding-bottom: 0;
     text-align: center;
   }
@@ -147,59 +147,78 @@ ul {
     margin-top: -7%;
   }
   .footer-text{
-    font-size: 75% !important;
-    font-weight: 700;
+    font-size: 65% !important;
+    font-weight: 600;
   }
   .footer-social-icon span{
-    font-size: 100%;
+    font-size: 80%;
   }
   .footer-widget-heading2,.footer-widget-heading{
     display: none;
   }
-  .contactandlinks{
+  /* .contactandlinks{
     width: 60%;
-  }
+    padding-left: 10px;
+    padding-right: 10px;
+  } */
   .arrange{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
-  .contactandlinks ul{
+  /* .contactandlinks ul{
     padding-left: 20px;
     padding-right: 20px;
-  }
+  } */
+
   .contactandlinks .footer-widget-heading2,.contactandlinks .footer-widget-heading{
     display: block;
     text-align: left;
+  }
+  .contactandlinks .footer-widget-heading{
+    padding-right: 60px;
   }
   .contactandlinks .footer-widget-heading2{
     /* width:55%; */
   }
   .contactandlinks .footer-widget-heading{
-    width: 40%;
+    /* width: 40%; */
     /* margin-right: -10%; */
   }
   .contactandlinks .footer-widget-heading li{
     padding-bottom: 3px;
-    font-size: 70%;
+    font-size: 55%;
   }
   .contactandlinks .footer-widget-heading2 li{
     padding-bottom: 3px;
-    font-size: 70%;
+    font-size: 55%;
   }
   #usefullinks,#contactlinks{
     text-align: center;
-    font-size: 90%;
-    margin-bottom: -10%;
+    font-size: 70%;
+    /* margin-bottom: -10%; */
   }
   .contactandlinks{
     display: flex;
   }
   .footer-widget .footer-widget-heading3{
     /* margin-top: 20px; */
-    font-size: 75%;
+    font-size:60%;
+    text-align: left;
   }
   .footer-textt p{
     font-size: 60% !important;
+    text-align: left;
+  }
+  .queries h3{
+    font-size: 80%;
+  }
+  .copyright p{
+    font-size: 80%;
+    font-weight: 500;
+  }
+  .copyright{
+    margin-top: -15px;
   }
 }
 @media screen and (min-width:600px) and (max-width:900px) {
