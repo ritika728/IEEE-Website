@@ -164,7 +164,9 @@ ul {
   .arrange{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-right: 6%;
   }
   /* .contactandlinks ul{
     padding-left: 20px;
@@ -200,6 +202,7 @@ ul {
   }
   .contactandlinks{
     display: flex;
+    flex-direction: row;
   }
   .footer-widget .footer-widget-heading3{
     /* margin-top: 20px; */
@@ -214,7 +217,7 @@ ul {
     font-size: 80%;
   }
   .copyright p{
-    font-size: 80%;
+    font-size: 60%;
     font-weight: 500;
   }
   .copyright{

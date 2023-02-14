@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import './navbar.css'
 import './home.css'
 import './countdown.css'
-// import './countdown.js'
+import './countdown.js'
 
 
 export default function DrawerAppBar(props) {
@@ -131,8 +131,8 @@ export default function DrawerAppBar(props) {
             <div className='main_head_mobile'>
               {/* <h3 className='animatedhead'>IEEE DELHI STUDENT SECTION NETWORK PRESENTS</h3> */}
               <h3 className='animatedhead' id='ssn'>IEEE DELHI STUDENT SECTION NETWORK PRESENTS</h3>
-              <div> <h1 id='name_congress'>RAJASTHAN SUBSECTION CONGRESS'23</h1>
-              <h4 id='desc'>IEEE STUDENT BRANCH MODY UNIVERSITY OF SCIENCE AND TEHNOLOGY</h4></div>
+              <div> <h1 id='name_congress'>RAJASTHAN SUB-SECTION CONGRESS'23</h1>
+              <h4 id='desc'>IEEE STUDENT BRANCH </h4><p id='mody'>MODY UNIVERSITY OF SCIENCE AND TEHNOLOGY</p></div>
             </div>
             <div id="clockdivmobile">
             <div>

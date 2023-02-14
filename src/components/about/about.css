@@ -3,11 +3,15 @@
     text-align: center;
     color: rgb(89,227,197);
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 #ABOUT{
   background-color: rgb(10,25,47); 
    /* width: 1540px; 
   height: 150vh;  */
-   margin-top: -50px; 
+   margin-top: 20px; 
    overflow: hidden;
 }
 .about-border {

@@ -58,7 +58,7 @@ const team = () => {
 						</div>
 						<div class="person-info">
 						<div className='contactt'>
-							<h3 class="full-name">Ritika Malik</h3>
+							<h3 class="full-name">Nivedita Vyas</h3>
 							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
 							<Link href="" ><LinkedinIcon/></Link>
 							</div>
@@ -95,7 +95,7 @@ const team = () => {
 							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
 							<Link href="" ><LinkedinIcon/></Link>
 							</div>
-							<span class="speciality">Delhi Student Section Representative</span>
+							<span class="speciality">IEEE Delhi Student Section Representative</span>
 						
 					</div>
 				</div>
@@ -109,8 +109,22 @@ const team = () => {
 							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
 							<Link href="" ><LinkedinIcon/></Link>
 							</div>
-							<span class="speciality">Delhi Student Section Representative</span>
+							<span class="speciality">IEEE Delhi Student Section Representative</span>
 					</div>
+				</div>
+				<div class="single-person">
+						<div class="person-image">
+							<img src={Vaidehi} alt="Vaidehi Purohit"></img>
+						</div>
+						<div class="person-info">
+						<div className='contactt'>
+							<h3 class="full-name">Vaidehi Purohit</h3>
+							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
+							<Link href="" ><LinkedinIcon/></Link>
+							</div>
+							<span class="speciality">IEEE Rajasthan Sub-Section Representative</span>
+						</div>
+					
 				</div>
 				<div class="single-person">
 						<div class="person-image">
@@ -122,24 +136,10 @@ const team = () => {
 							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
 							<Link href="" ><LinkedinIcon/></Link>
 							</div>
-							<span class="speciality">Chandigarh Sub Section Representative</span>
+							<span class="speciality">IEEE Chandigarh Sub-Section Representative</span>
 					</div>
 				</div>
 				            
-				<div class="single-person">
-						<div class="person-image">
-							<img src={Vaidehi} alt="Vaidehi Purohit"></img>
-						</div>
-						<div class="person-info">
-						<div className='contactt'>
-							<h3 class="full-name">Vaidehi Purohit</h3>
-							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
-							<Link href="" ><LinkedinIcon/></Link>
-							</div>
-							<span class="speciality">Rajasthan Sub-Section Representative</span>
-						</div>
-					
-				</div>
 			</div>
 		</div>
 	</section>

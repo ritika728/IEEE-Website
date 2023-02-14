@@ -399,11 +399,9 @@ path{
     }
 
 }
-@media screen  and (min-width:0px) and (max-width:500px) {
-    #ABOUT{
+@media screen  and (min-width:0px) and (max-width:600px) {
+    #HOME{
         width: 100%; 
-        margin-top: -10px;
-        margin-bottom: 900px;
     }
     #mobileabout{
         display: none;
@@ -413,37 +411,46 @@ path{
         text-align: center;
         margin: auto 0;
         font-size: 80%;
-        padding: 70px;
-        margin-top: -1%;
     }
     #name_congress{
         color: rgb(89,227,197);
-        letter-spacing: 2px;
-        font-size: 95%;
-        margin-bottom: 1%;
+        letter-spacing: 3px;
+        font-size: 160%;
+        margin-bottom: 6%;
     }
     #ssn{
-        font-size: 95%;
-        margin-bottom: 1%;
+        font-size: 110%;
+        margin-bottom: 6%;
+        font-weight: 500;
+        margin-top: 8%;
     }
-    #desc, #ssn{
+    #desc, #ssn,#mody{
         color: rgb(204,214,246);
     }
     #desc{
-        font-size: 90%;
+        font-size: 110%;
+        font-weight: 500;
+        letter-spacing: 1px;
     }
+    #mody{
+        font-size: 110%;
+        font-weight: 500;
+        margin-bottom: 8%;
+        letter-spacing: 1px;
+    }
+
     #clockdivmobile{
-        margin-top: -1%;
         display: block;
         text-align: center;
     }
     #clockdivmobile div > span {
-        padding: 15px;
+        padding: 20px;
         border-radius: 3px;
         background-color: rgb(204,214,246);
         display: inline-block;
         color: black;
         font-family: "Raleway";
+        font-size: 10% !important;
     }
     .smalltext{
         font-size: 90% !important;
@@ -459,12 +466,12 @@ path{
         font-weight: 200;
         margin-bottom: -20px;
     }
-    /* .btn-3 span {
+    .btn-3 span {
         position: relative;
         display: block;
         width: 100%;
         height: 100%;
-    } */
+    }
     .btn-3 {
         margin-top:10px;
         /* background-color: rgb(89,227,197); */
@@ -480,13 +487,12 @@ path{
         display: inline-block;
         outline: none;
         color: rgb(58,54,55);
-        padding: 5px;
+        padding: 2px;
         letter-spacing: 2px;
         border: none;
         font-size: 90%;
         border-radius: 2px;
-        width: 18%;
-        margin-left: 39%;
+        width: 70%;
         cursor: pointer;
         font-weight: 550;
         margin-bottom: 15px;
@@ -495,8 +501,18 @@ path{
         font-size: 15px;
         display: flex;
         flex-direction: column;
-        margin: auto 0;
+        margin: 0 auto;
         margin-top: 40px;
+        margin-left: 10%;
         justify-content: center;
+    }
+}
+
+@media screen  and (min-width:600px) and (max-width:900px) {
+    .main_head_mobile{
+        display: none;
+    }
+    .clockflex{
+        font-size: 6% !important;
     }
 }
