@@ -25,7 +25,7 @@ const contact = () => {
                     <Link href="https://www.linkedin.com/in/ritika-malik-must/" target="_blank" className="icons"><FacebookIcon/></Link>
                 </div>            
             </div>
-            <div class="footer-ieee">
+            <div class="footer-ieee" id='ssn'>
                 <div>
                     <a style={{textDecoration:"none"}} href='#'><p className="footer-text">IEEE DELHI STUDENT SECTION NETWORK</p></a>
                 </div>
@@ -55,16 +55,18 @@ const contact = () => {
             <h3>Contact</h3>
          
             <ul>
-                <li><a className='links_nav' style={{textDecoration:"none"}} href="#">Heena Thadani</a></li>
-                <li><a className='links_nav' style={{textDecoration:"none"}} href="#">Jahnavi Sharma</a></li>
                 <li><a className='links_nav' style={{textDecoration:"none"}} href="#">Anshul Yadav</a></li>
                 <li><a className='links_nav' style={{textDecoration:"none"}} href='#'>Kailash Maurya</a></li>
                 <li><a className='links_nav' style={{textDecoration:"none"}} href='#'>Vaidehi Purohit</a></li>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href="#">Heena Thadani</a></li>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href="#">Jahnavi Sharma</a></li>
             </ul>
             
             </div>
             <div id='purpose'>
+            <div className='arrange'>
             <div className='contactandlinks'>
+                
             <div class="footer-widget-heading">
             <h3 id='usefullinks'>Useful Links</h3>
          
@@ -74,20 +76,18 @@ const contact = () => {
                 <li><a style={{textDecoration:"none"}} href="#">EVENTS</a></li>
                 <li><a style={{textDecoration:"none"}} href='#'>TEAM</a></li>
                 <li><a style={{textDecoration:"none"}} href='#'>SPONSORS</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">CONTACT</a></li>
+                {/* <li><a style={{textDecoration:"none"}} href="#">CONTACT</a></li> */}
             </ul>
             </div>
             <div class="footer-widget-heading2">
             <h3 id='contactlinks'>Contact</h3>
          
             <ul>
+                <li><a style={{textDecoration:"none"}} href="#">Anshul Yadav</a></li>
+                <li><a style={{textDecoration:"none"}} href='#'>Kailash Maurya</a></li>
                 <li><a style={{textDecoration:"none"}} href="#">Heena Thadani</a></li>
                 <li><a style={{textDecoration:"none"}} href="#">Jahnavi Sharma</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">Nivedita Vyas</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">Ritika Malik</a></li>
                 <li><a style={{textDecoration:"none"}} href='#'>Vaidehi Purohit</a></li>
-                <li><a style={{textDecoration:"none"}} href='#'>Kailash Maurya</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">Anshul Yadav</a></li>
 
             </ul>
             </div>
@@ -105,6 +105,8 @@ const contact = () => {
                             <div style={{marginBottom:"10px"}} class="footer-textt">
                                 <p>CODE OF CONDUCT</p>
                             </div>
+                            </div>
+                            </div> 
                             <div class="queries">
                                 <h3>Any queries, let us know : </h3>
                            </div>
@@ -120,7 +122,7 @@ const contact = () => {
                                     <button><i><TelegramIcon/></i></button>
                                 </form>
                             </div>
-                        </div> 
+                        
                         </div>        
         </div>
         <div className='copyright-border'></div>

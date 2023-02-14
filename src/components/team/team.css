@@ -50,7 +50,7 @@
     border: 2px dashed #fff;
 }
 .section-team .single-person .person-image img {
-	width: 70%;
+	width: 60%;
     border-radius: 50%;
     border: 2px dashed transparent;
     transition: padding .3s;

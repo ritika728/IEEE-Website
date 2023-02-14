@@ -14,6 +14,7 @@ const team = () => {
     <div id='TEAM'>
 		<h1 className="team_head">MEET OUR TEAM</h1>
 		<div className='teams-border'></div>
+		<div className='container2 reveal fadein'>
       <section class="section-team">
 		<div class="container_team">
 			<div class="row">
@@ -80,21 +81,7 @@ const team = () => {
 					</div>
 			</div>
 			<div class="row" style={{marginTop:"-70px"}}>
-            
-					<div class="single-person">
-						<div class="person-image">
-							<img src={Vaidehi} alt="Vaidehi Purohit"></img>
-						</div>
-						<div class="person-info">
-						<div className='contactt'>
-							<h3 class="full-name">Vaidehi Purohit</h3>
-							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
-							<Link href="" ><LinkedinIcon/></Link>
-							</div>
-							<span class="speciality">Rajasthan Sub-Section Student Representative</span>
-						</div>
-					
-				</div>
+
 					<div class="single-person">
 						<div class="person-image">
 							<img src="https://i.ibb.co/nbpNr4r/person2.jpg" alt=""></img>
@@ -125,9 +112,38 @@ const team = () => {
 							<span class="speciality">Delhi Student Section Representative</span>
 					</div>
 				</div>
+				<div class="single-person">
+						<div class="person-image">
+							<img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt=""></img>
+						</div>
+						<div class="person-info">
+						<div className='contactt'>
+							<h3 class="full-name">Divyansh Sharma</h3>
+							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
+							<Link href="" ><LinkedinIcon/></Link>
+							</div>
+							<span class="speciality">Chandigarh Sub Section Representative</span>
+					</div>
+				</div>
+				            
+				<div class="single-person">
+						<div class="person-image">
+							<img src={Vaidehi} alt="Vaidehi Purohit"></img>
+						</div>
+						<div class="person-info">
+						<div className='contactt'>
+							<h3 class="full-name">Vaidehi Purohit</h3>
+							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
+							<Link href="" ><LinkedinIcon/></Link>
+							</div>
+							<span class="speciality">Rajasthan Sub-Section Representative</span>
+						</div>
+					
+				</div>
 			</div>
 		</div>
 	</section>
+	</div>
 	<ul className="circle_events">
                     <li></li>
                     <li></li>

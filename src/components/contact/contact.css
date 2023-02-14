@@ -139,9 +139,12 @@ ul {
 @media screen and (min-width:0px) and (max-width:600px) {
   .footer{
     display: block;
-    padding: 35px;
+    padding: 30px;
     padding-bottom: 0;
     text-align: center;
+  }
+  #ssn .footer-text{
+    margin-top: -7%;
   }
   .footer-text{
     font-size: 75% !important;
@@ -153,39 +156,50 @@ ul {
   .footer-widget-heading2,.footer-widget-heading{
     display: none;
   }
+  .contactandlinks{
+    width: 60%;
+  }
+  .arrange{
+    display: flex;
+    flex-direction: row;
+  }
   .contactandlinks ul{
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .contactandlinks .footer-widget-heading2,.contactandlinks .footer-widget-heading{
     display: block;
     text-align: left;
   }
   .contactandlinks .footer-widget-heading2{
-    width:55%;
+    /* width:55%; */
   }
   .contactandlinks .footer-widget-heading{
     width: 40%;
-    margin-right: 10%;
+    /* margin-right: -10%; */
   }
   .contactandlinks .footer-widget-heading li{
     padding-bottom: 3px;
-    font-size: 80%;
+    font-size: 70%;
   }
   .contactandlinks .footer-widget-heading2 li{
     padding-bottom: 3px;
-    font-size: 80%;
+    font-size: 70%;
   }
   #usefullinks,#contactlinks{
     text-align: center;
+    font-size: 90%;
+    margin-bottom: -10%;
   }
   .contactandlinks{
     display: flex;
   }
   .footer-widget .footer-widget-heading3{
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    font-size: 75%;
   }
   .footer-textt p{
-    font-size: 80% !important;
+    font-size: 60% !important;
   }
 }
 @media screen and (min-width:600px) and (max-width:900px) {
@@ -193,11 +207,18 @@ ul {
     margin: 0;
     padding: 0;
   }
+  .footer-social-icon span{
+    font-size: 90% !important;
+    margin-bottom: -1px;
+  }
+  .footer-ieee{
+    width: 100%;
+  }
   .footer{
     padding: 10px !important;
   }
   .footer-text{
-    font-size: 75% !important;
+    font-size: 65% !important;
     font-weight: 700;
   }
   .footer-social-icon span{
@@ -205,16 +226,13 @@ ul {
   }
   #usefullinks {
     font-size: 100% !important;
-    /* padding-left: 10px; */
+    margin-left: -45px;
   }
   #contactlinks{
-    font-size: 90%;
+    font-size: 100%;
   }
   .footer-widget-heading2,.footer-widget-heading{
     display: none;
-  }
-  .contactandlinks ul{
-    padding-left: 80px;
   }
   .contactandlinks .footer-widget-heading2,.contactandlinks .footer-widget-heading{
     display: block;
@@ -224,34 +242,47 @@ ul {
     width:100%;
   }
   .contactandlinks .footer-widget-heading{
-    width: 40%;
-    margin-right: 10%;
+    width: 70%;
+    /* margin-right: 10%; */
   }
   .contactandlinks .footer-widget-heading li{
     padding-bottom: 3px;
-    /* font-size: %; */
+    font-size: 80%;
   }
   .contactandlinks .footer-widget-heading ul{
-    margin-left: -80px !important;
+    margin-left: -30px !important;
+    margin-top: -10px;
   }
   .contactandlinks .footer-widget-heading2 ul{
-    margin-left: -50px !important;
+    /* margin-left: -30px !important; */
+    margin-top: -10px;
   }
   .contactandlinks .footer-widget-heading2 li{
     padding-bottom: 3px;
-    font-size: 90%;
+    font-size: 80%;
   }
   #usefullinks,#contactlinks{
-    text-align: center;
+    text-align: left;
   }
   .contactandlinks{
     display: flex;
   }
   .footer-widget .footer-widget-heading3{
     margin-top: 20px;
+    margin-bottom: -2%;
   }
   .footer-textt p{
     font-size: 80% !important;
+    margin-bottom: -1%;
+  }
+  .footer-widget{
+    text-align: center !important;
+    justify-content: center;
+    margin-left: -170%;
+    /* margin-top: -10%; */
+  }
+  #ssn{
+    margin-top: -12%;
   }
 }
 
