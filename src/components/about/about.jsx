@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-// import './about.js'
+import './about.js'
 
 const about = () => {
   return (
