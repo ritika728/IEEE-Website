@@ -13,12 +13,11 @@ body{
     scroll-behavior: smooth;
     margin: 0;
     background-color: rgb(10,25,47); 
-    /* height: 2900px; */
 }
 
 #HOME{
     /* background-color: rgb(10,25,47);  */
-     width: 1540px; 
+     /* width: 1540px;  */
     height: 150vh; 
      /* margin-top: -10px;  */
 }
@@ -508,11 +507,9 @@ path{
     }
 }
 
-@media screen  and (min-width:600px) and (max-width:900px) {
+@media screen  and (min-width:600px) and (max-width:1400px) {
     .main_head_mobile{
         display: none;
     }
-    .clockflex{
-        font-size: 6% !important;
-    }
+
 }

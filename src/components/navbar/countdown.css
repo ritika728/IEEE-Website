@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 #clockdiv{
-	font-family: sans-serif;
+	/* font-family: sans-serif; */
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
@@ -11,7 +11,8 @@
 	margin-top: 40px;
   /* background-color: #ffffff; */
   justify-content: left;
-  margin-left: -580px;
+  /* margin-left: -560px; */
+  text-align: left;
 	
 }
 #clockdiv > div{
