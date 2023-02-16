@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import './navbar.css'
 import './home.css'
 import './countdown.css'
-// import './countdown.js'
+//import './countdown.js'
 
 
 export default function DrawerAppBar(props) {
@@ -125,7 +125,10 @@ export default function DrawerAppBar(props) {
 </div>
 </div>
             <div className="photo">
+            <div className='container3 reveal faderight'>
+
             <img className="image"  style={{height:"280px"}}src={require('./animation.png')} alt="alternate" />
+          </div>
           </div>
           </div>
             <div className='main_head_mobile'>
@@ -153,9 +156,12 @@ export default function DrawerAppBar(props) {
   </div>
             </div>
             <div className='register' id='registermobile'> 
+            
+
                <button className='custom-btn btn-3' id='custombtnmobile'><span>REGISTER HERE</span></button> 
                <button className='custom-btn btn-3' id='custombtnmobile1'><span>CODE OF CONDUCT</span></button> 
              </div>
+             
             <ul className="circles">
                     <li></li>
                     <li></li>

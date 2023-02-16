@@ -19,10 +19,10 @@ const contact = () => {
                 </div>
                 <div style={{marginBottom:"40px"}} class="footer-social-icon">
                     <span>Follow us</span>
-                    <Link href="mailto:ritikamalik100102@gmail.com?" className="icons"target="_blank"><EmailIcon/></Link>
-                    <Link href="https://twitter.com/Ritika287" className="icons" target="_blank"><LinkedInIcon/></Link>
-                    <Link href="https://github.com/ritika728" className="icons" target="_blank"><TwitterIcon/></Link>
-                    <Link href="https://www.linkedin.com/in/ritika-malik-must/" target="_blank" className="icons"><FacebookIcon/></Link>
+                    <Link href="https://edu.ieee.org/in-must/?" className="icons"target="_blank"><EmailIcon/></Link>
+                    <Link href="https://bit.ly/ieeemustLinkedIN" className="icons" target="_blank"><LinkedInIcon/></Link>
+                    <Link href="https://bit.ly/ieeemustTWITTER" className="icons" target="_blank"><TwitterIcon/></Link>
+                    <Link href="https://bit.ly/ieeemustFB" target="_blank" className="icons"><FacebookIcon/></Link>
                 </div>            
             </div>
             <div class="footer-ieee" id='ssn'>
