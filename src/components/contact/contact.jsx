@@ -25,7 +25,7 @@ const contact = () => {
                     <Link href="https://bit.ly/ieeemustFB" target="_blank" className="icons"><FacebookIcon/></Link>
                 </div>            
             </div>
-            <div class="footer-ieee">
+            <div class="footer-ieee" id='ssn'>
                 <div>
                     <a style={{textDecoration:"none"}} href='#'><p className="footer-text">IEEE DELHI STUDENT SECTION NETWORK</p></a>
                 </div>
@@ -43,42 +43,87 @@ const contact = () => {
             <h3>Useful Links</h3>
          
             <ul>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href="#">HOME</a></li>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href="#">ABOUT</a></li>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href="#">EVENTS</a></li>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href='#'>TEAM</a></li>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href='#'>SPONSORS</a></li>
+                {/* <li><a className='links_nav' style={{textDecoration:"none"}} href="#">CONTACT</a></li> */}
+            </ul>
+            </div>
+            <div class="footer-widget-heading">
+            <h3>Contact</h3>
+         
+            <ul>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href="#">Anshul Yadav</a></li>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href='#'>Kailash Maurya</a></li>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href='#'>Vaidehi Purohit</a></li>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href="#">Heena Thadani</a></li>
+                <li><a className='links_nav' style={{textDecoration:"none"}} href="#">Jahnavi Sharma</a></li>
+            </ul>
+            
+            </div>
+            <div id='purpose'>
+            <div className='arrange'>
+            <div className='contactandlinks'>
+                
+            <div class="footer-widget-heading">
+            <h3 id='usefullinks'>Useful Links</h3>
+         
+            <ul>
                 <li><a style={{textDecoration:"none"}} href="#">HOME</a></li>
                 <li><a style={{textDecoration:"none"}} href="#">ABOUT</a></li>
                 <li><a style={{textDecoration:"none"}} href="#">EVENTS</a></li>
                 <li><a style={{textDecoration:"none"}} href='#'>TEAM</a></li>
                 <li><a style={{textDecoration:"none"}} href='#'>SPONSORS</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">CONTACT</a></li>
+                {/* <li><a style={{textDecoration:"none"}} href="#">CONTACT</a></li> */}
             </ul>
             </div>
             <div class="footer-widget-heading2">
-            <h3>Contact</h3>
+            <h3 id='contactlinks'>Contact</h3>
          
             <ul>
-                <li><a style={{textDecoration:"none"}} href="#">Heena Thadani</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">Jahnavi Sharma</a></li>
                 <li><a style={{textDecoration:"none"}} href="#">Anshul Yadav</a></li>
                 <li><a style={{textDecoration:"none"}} href='#'>Kailash Maurya</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">Heena Thadani</a></li>
+                <li><a style={{textDecoration:"none"}} href="#">Jahnavi Sharma</a></li>
                 <li><a style={{textDecoration:"none"}} href='#'>Vaidehi Purohit</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">Nivedita Vyas</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">Ritika Malik</a></li>
-                <li><a style={{textDecoration:"none"}} href="#">Shobhna Sharma</a></li>
+
             </ul>
+            </div>
             </div>
             <div className="footer-widget">
                             <div class="footer-widget-heading3">
                                 <h3>Become a member</h3>
                            </div>
-                            <div style={{marginBottom:"15px"}} className="footer-text mb-25">
+                            <div style={{marginBottom:"10px"}} className="footer-textt">
                                 <p>REGISTER HERE TO JOIN IEEE</p>
                             </div>
-                            <div style={{marginBottom:"15px"}} class="footer-text mb-25">
+                            <div style={{marginBottom:"10px"}} class="footer-textt">
                                 <p>REGISTER HERE FOR RSSC</p>
                             </div>
-                            <div style={{marginBottom:"15px"}} class="footer-text mb-25">
+                            <div style={{marginBottom:"10px"}} class="footer-textt">
                                 <p>CODE OF CONDUCT</p>
                             </div>
-                        </div>         
+                            </div>
+                            </div> 
+                            <div class="queries">
+                                <h3>Any queries, let us know : </h3>
+                           </div>
+                           <div>
+                            {/* <form className='msg_btn' action="#">
+                                <input className='email' type="text" placeholder="Email Address"></input>
+                                <button><i><TelegramIcon/></i></button>
+                            </form> */}
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address"></input>
+                                    <button><i><TelegramIcon/></i></button>
+                                </form>
+                            </div>
+                        
+                        </div>        
         </div>
         <div className='copyright-border'></div>
         <div className='copyright'>

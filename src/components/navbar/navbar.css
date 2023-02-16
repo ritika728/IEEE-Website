@@ -399,12 +399,9 @@ path{
     }
 
 }
-@media screen  and (min-width:300px) and (max-width:500px) {
-    #ABOUT{
+@media screen  and (min-width:0px) and (max-width:600px) {
+    #HOME{
         width: 100%; 
-        height: 100vh;
-        margin-top: -10px;
-        margin-bottom: 900px;
     }
     #mobileabout{
         display: none;
@@ -412,29 +409,51 @@ path{
     .main_head_mobile{
         display: block;
         text-align: center;
-        margin-left: 2%;
-        margin-right: 2%;
-        margin-top:5%;
+        margin: auto 0;
+        font-size: 80%;
     }
     #name_congress{
         color: rgb(89,227,197);
-        font-size: 1.8em;
+        letter-spacing: 3px;
+        font-size: 160%;
+        margin-bottom: 6%;
     }
-    #desc, #ssn{
+    #ssn{
+        font-size: 110%;
+        margin-bottom: 6%;
+        font-weight: 500;
+        margin-top: 8%;
+    }
+    #desc, #ssn,#mody{
         color: rgb(204,214,246);
     }
+    #desc{
+        font-size: 110%;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    #mody{
+        font-size: 110%;
+        font-weight: 500;
+        margin-bottom: 8%;
+        letter-spacing: 1px;
+    }
+
     #clockdivmobile{
-        margin-top: 20px;
         display: block;
         text-align: center;
     }
     #clockdivmobile div > span {
-        padding: 15px;
+        padding: 20px;
         border-radius: 3px;
         background-color: rgb(204,214,246);
         display: inline-block;
         color: black;
         font-family: "Raleway";
+        font-size: 10% !important;
+    }
+    .smalltext{
+        font-size: 90% !important;
     }
     #clockdivmobile > div {
         padding: 10px;
@@ -445,6 +464,7 @@ path{
         color: rgb(89,227,197);
         text-align: center;
         font-weight: 200;
+        margin-bottom: -20px;
     }
     .btn-3 span {
         position: relative;
@@ -454,7 +474,7 @@ path{
     }
     .btn-3 {
         margin-top:10px;
-        background-color: rgb(89,227,197);
+        /* background-color: rgb(89,227,197); */
         line-height: 5px;
         padding: 0;
         border: none;
@@ -467,23 +487,32 @@ path{
         display: inline-block;
         outline: none;
         color: rgb(58,54,55);
-        padding: 5px;
-        letter-spacing: 1px;
+        padding: 2px;
+        letter-spacing: 2px;
         border: none;
-        font-size: 15px;
+        font-size: 90%;
         border-radius: 2px;
-        width: 80%;
-        height: 10%;
-        margin-right: 10%;
-        margin-left: 10%;
+        width: 70%;
         cursor: pointer;
-        font-weight: 500;
+        font-weight: 550;
+        margin-bottom: 15px;
     }
     #registermobile{
-        padding-left: 10px;
-        padding-right: 10px;
         font-size: 15px;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
         margin-top: 40px;
+        margin-left: 10%;
+        justify-content: center;
+    }
+}
+
+@media screen  and (min-width:600px) and (max-width:900px) {
+    .main_head_mobile{
+        display: none;
+    }
+    .clockflex{
+        font-size: 6% !important;
     }
 }
