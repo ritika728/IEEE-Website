@@ -39,14 +39,14 @@
   }
 
 .main_head h1{
-    font-size: 42px;
+    font-size: 38px;
     color: rgb(89,227,197);
     letter-spacing: 3px;
     margin-bottom: 20px;
 }
 
 .main_head h4{
-    font-size: 23px;
+    font-size: 20px;
     color: rgb(204,214,246);
     letter-spacing: 1px;
     text-transform: capitalize !important;
