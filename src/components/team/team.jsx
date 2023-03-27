@@ -26,8 +26,8 @@ const team = () => {
 						<div class="person-info">
 						<div className='contactt'>
 							<h3 class="full-name">Heena Thadani</h3>
-							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
-							<Link href="" ><LinkedinIcon/></Link>
+							<Link href="mailto:heenathadani@ieee.org"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
+							<Link href="https://www.linkedin.com/in/heena-thadani" ><LinkedinIcon/></Link>
 							</div>
 							<span class="speciality">Chairperson, IEEE SB MUST</span>
 						
@@ -41,8 +41,8 @@ const team = () => {
 						<div class="person-info">
 						<div className='contactt'>
 							<h3 class="full-name">Jahnavi Sharma</h3>
-							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
-							<Link href="" ><LinkedinIcon/></Link>
+							<Link href="mailto:jahnavisharma_09@ieee.org"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
+							<Link href="https://www.linkedin.com/in/jahnavisharma/" ><LinkedinIcon/></Link>
 							</div>
 							<span class="speciality">Vice-Chairperson ,IEEE SB MUST</span>
 						
@@ -59,8 +59,8 @@ const team = () => {
 						<div class="person-info">
 						<div className='contactt'>
 							<h3 class="full-name">Nivedita Vyas</h3>
-							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
-							<Link href="" ><LinkedinIcon/></Link>
+							<Link href="mailto:niveditavyas@ieee.org"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
+							<Link href="https://www.linkedin.com/in/nivedita-vyas-8b51b71a9" ><LinkedinIcon/></Link>
 							</div>
 							<span class="speciality">Secretary, IEEE SB MUST</span>
 						</div>
@@ -73,8 +73,8 @@ const team = () => {
 						<div class="person-info">
 							<div className='contactt'>
 							<h3 class="full-name">Ritika Malik</h3>
-							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
-							<Link href="" ><LinkedinIcon/></Link>
+							<Link href="mailto:ritikamalik@ieee.org"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
+							<Link href="http://www.linkedin.com/in/ritika-malik-must" ><LinkedinIcon/></Link>
 							</div>
 							<span class="speciality">Webmaster, IEEE SB MUST</span>
 						</div>
@@ -119,8 +119,8 @@ const team = () => {
 						<div class="person-info">
 						<div className='contactt'>
 							<h3 class="full-name">Vaidehi Purohit</h3>
-							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
-							<Link href="" ><LinkedinIcon/></Link>
+							<Link href="mailto:vaidehipurohit@ieee.org"style={{marginLeft:"6px"}}className="iconss" target="_blank"><EmailIcon/></Link>
+							<Link href="http://linkedin.com/in/vaidehipurohit01" ><LinkedinIcon/></Link>
 							</div>
 							<span class="speciality">IEEE Rajasthan Sub-Section Representative</span>
 						</div>
